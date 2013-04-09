@@ -1,0 +1,6 @@
+; $Id: impmvdm.def,v 1.6 2004/02/17 23:32:33 smilcke Exp $
+
+LIBRARY MVDM
+
+EXPORTS
+    __TKSSBase  @ 2

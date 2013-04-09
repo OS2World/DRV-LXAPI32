@@ -1,0 +1,11 @@
+On initialization LXAPI32 runs the script with the name "boot".
+The root directory for all scripts should be defined with the environment
+variable LXAPIROOT. All scripts are located in the etc subdirectory.
+If LXAPIROOT is not defined LXAPI32 expects the root where the driver is
+loaded from.
+
+vmlinuz <parms>
+	set <parms> for the kernel
+
+init	<parms>
+	set <parms> for init and do init

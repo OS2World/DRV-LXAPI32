@@ -1,0 +1,16 @@
+SEGENDMARKER _init_text
+SEGENDMARKER _sched_text
+SEGENDMARKER _exit_text
+SEGENDMARKER _init_data
+SEGENDMARKER _init_setup
+SEGENDMARKER _initcall1_init
+SEGENDMARKER _initcall2_init
+SEGENDMARKER _initcall3_init
+SEGENDMARKER _initcall4_init
+SEGENDMARKER _initcall5_init
+SEGENDMARKER _initcall6_init
+SEGENDMARKER _initcall7_init
+SEGENDMARKER _exitcall_exit
+SEGENDMARKER __ksymtab_strings
+SEGENDMARKER __ksymtab
+SEGENDMARKER __ksymtab_gpl

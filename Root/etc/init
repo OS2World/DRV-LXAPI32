@@ -1,0 +1,2 @@
+#! /sbin/init.exe
+# this calls the init process for LXAPI32

@@ -1,0 +1,54 @@
+1 Introduction
+==============
+This document lists all the needed tools and compilers to build the lxapi32
+OS/2 device driver.
+It also tries to give some informations about the architecture of the driver
+and explain some technical details.
+
+2 Required tools
+================
+- Watcom C/C++ version 11.0c
+- ALP 4.x (IBM assembler; comes with ddk)
+- IBM OS/2 DDK (http://service.boulder.ibm.com/ddk/)
+  - Base header/libraries/tools (combase.zip)
+  - MMPM/2 base (mmpmdd.zip)
+  - PDD & MMPM/2 driver reference
+  - ILINK.EXE and ILIB.EXE
+  - Innotek's GCC compiler beta 3
+  - EMX make utilities
+
+3 Recommended tools for debugging
+=================================
+- ICAT debugger (follow link from IBM DDK page)
+- OS/2 Debug kernel
+
+4 Building the driver
+=====================
+You need some environment variables for build:
+DDK        Path to DDK
+LXAPI32DEV Path to LXAPI32
+GCC        Path to Innoteks GCC (currently gcc-3.2.2-beta3.zip)
+EMXUTILS   Path to EMX utilities (make, touch, etc.)
+
+You can build the driver from the main directory by executing:
+build.cmd
+This will create the debug version of the driver.
+Parameters to build.cmd:
+clean   Clean up all directories
+release Make release version (without debug)
+debug   Make debug version (default)
+all     Rebuild all files
+
+5 LXAPI32 driver architecture
+=============================
+LXAPI32 contains a lot of Linux function calls.
+
+6 Important notes
+=================
+16/32 Bit segments
+------------------
+All public symbols in 16 Bit segments must not begin with an underscore (_).
+The GCSyms.cmd script will parse the map file and place all public symbols
+beginning with an underscore (_) into the kallsym table. If there are 16 Bit
+public symbols with an underscore (_) at the beginning tha call trace will
+not work correctly.

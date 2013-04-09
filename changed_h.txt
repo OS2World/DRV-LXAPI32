@@ -1,0 +1,41 @@
+/* $Id: changed_h.txt,v 1.5 2005/03/30 23:36:34 smilcke Exp $ */
+This file lists all include files that have been changed during porting
+from linux to OS/2. All changes depends on the macro TARGET_OS2.
+
+linux\a.out.h
+linux\bootmem.h
+linux\cache.h
+linux\compiler-gcc.h
+linux\compiler-gcc3.h
+linux\compiler.h
+linux\config.h
+linux\genhd.h
+linux\init.h
+linux\init_task.h
+linux\module.h
+linux\pagemap.h
+linux\random.h
+linux\sched.h
+linux\stop_machine.h
+linux\sysctl.h
+
+asm-generic\percpu.h
+
+asm\bug.h
+asm\bugs.h
+asm\desc.h
+asm\hardirq.h
+asm\i387.h
+asm\msr.h
+asm\page.h
+asm\param.h
+asm\processor.h
+asm\rwlock.h
+asm\rwsem.h
+asm\semaphore.h
+asm\spinlock.h
+asm\string.h
+asm\system.h
+asm\thread_info.h
+asm\uaccess.h
+asm\unistd.h

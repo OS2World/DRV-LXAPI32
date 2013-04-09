@@ -1,0 +1,70 @@
+; $Id: impkee.def,v 1.8 2005/03/15 23:37:57 smilcke Exp $
+
+;******************************************************************************
+; KEE import definition file
+;
+;     This program is free software; you can redistribute it and/or
+;     modify it under the terms of the GNU General Public License as
+;     published by the Free Software Foundation; either version 2 of
+;     the License, or (at your option) any later version.
+;
+;     This program is distributed in the hope that it will be useful,
+;     but WITHOUT ANY WARRANTY; without even the implied warranty of
+;     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;     GNU General Public License for more details.
+;
+;     You should have received a copy of the GNU General Public
+;     License along with this program; if not, write to the Free
+;     Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139,
+;     USA.
+;
+;******************************************************************************
+LIBRARY KEE
+
+EXPORTS
+   _KernAllocSpinLock @ 10
+   _KernFreeSpinLock @ 11
+   _KernAcquireSpinLock @ 12
+   _KernReleaseSpinLock @ 13
+   _KernAllocMutexLock @ 20
+   _KernFreeMutexLock @ 21
+   _KernRequestSharedMutex @ 22
+   _KernReleaseSharedMutex @ 23
+   _KernTryRequestSharedMutex @ 24
+   _KernRequestExclusiveMutex @ 25
+   _KernReleaseExclusiveMutex @ 26
+   _KernTryRequestExclusiveMutex @ 27
+   _KernBlock @ 30
+   _KernWakeup @ 31
+   _KernThunkStackTo16 @ 40
+   _KernThunkStackTo32 @ 41
+   _KernSerialize16BitDD @ 42
+   _KernUnserialize16BitDD @ 43
+   _KernArmHook @ 44
+   _KernAllocateContextHook @ 45
+   _KernCopyIn @ 50
+   _KernCopyOut @ 51
+   _KernVMAlloc @ 60
+   _KernVMFree @ 61
+   _KernVMLock @ 62
+   _KernVMUnlock @ 63
+   _KernLinToPageList @ 64
+   _KernVMSetMem @ 65
+   _KernSelToFlat @ 66
+   _KernDynamicAPI @ 70
+   _KernRASSysTrace @ 80
+   _KernPerfSysTrace @ 81
+   SIS @ 90
+   InterruptLevel @ 92
+;   _TKSSBase @ 93
+   KEEVersionId @ 94
+   _KernLockFile @ 100
+   _KernUnLockFile @ 101
+   _KernGetFileSize @ 102
+   _KernTestFileCache @ 103
+   _KernReadFileAt @ 104
+   _KernReadFileAtCache @ 105
+   _KernReturnFileCache @ 106
+   _KernCreateUconvObject @ 120
+   _KernStrFromUcs @ 121
+   _KernStrToUcs @ 122

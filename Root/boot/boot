@@ -1,0 +1,10 @@
+#
+# Boot script for LXAPI32
+#
+# Some special parameters for LXAPI32:
+# lx_alloc_aligned_retry= <n> (10-800)
+#
+
+#vmlinuz root=/dev/lxda1 lx_alloc_aligned_retry=800
+vmlinuz root=/dev/lxda1
+init

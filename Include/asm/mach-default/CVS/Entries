@@ -1,0 +1,22 @@
+/apm.h/1.1/Fri Jul 23 21:42:14 2004//
+/bios_ebda.h/1.1/Fri Jul 23 21:42:14 2004//
+/do_timer.h/1.1/Fri Jul 23 21:42:14 2004//
+/entry_arch.h/1.1/Fri Jul 23 21:42:16 2004//
+/io_ports.h/1.1/Fri Jul 23 21:42:16 2004//
+/irq_vectors.h/1.1/Fri Jul 23 21:42:16 2004//
+/irq_vectors_limits.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_apic.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_apicdef.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_ipi.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_mpparse.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_mpspec.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_reboot.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_time.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_timer.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_traps.h/1.1/Fri Jul 23 21:42:16 2004//
+/mach_wakecpu.h/1.1/Fri Jul 23 21:42:16 2004//
+/pci-functions.h/1.1/Fri Jul 23 21:42:16 2004//
+/setup_arch_post.h/1.1/Fri Jul 23 21:42:18 2004//
+/setup_arch_pre.h/1.1/Fri Jul 23 21:42:18 2004//
+/smpboot_hooks.h/1.1/Fri Jul 23 21:42:18 2004//
+D

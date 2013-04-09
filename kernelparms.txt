@@ -1,0 +1,2 @@
+lx_alloc_aligned_retry=<num>
+	<num>	>=10 && <=800
